@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_corner_rectangle_black"
+    android:orientation="vertical"
+    android:padding="4px">
+
+    <TextView
+        android:id="@+id/tv_lable"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:gravity="center_vertical"
+        android:paddingLeft="10px"
+        android:text="你好"
+        android:textColor="@color/black"
+        android:textSize="20px" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/pull_down" />
+
+</FrameLayout>

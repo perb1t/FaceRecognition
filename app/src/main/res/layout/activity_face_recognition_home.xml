@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#18344A"
+        android:orientation="horizontal"
+        android:padding="50px">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/shadow_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/btn_face_verify"
+                android:layout_width="350px"
+                android:layout_height="250px">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/icon_face" />
+
+                <ImageView
+                    android:id="@+id/iv_outer_ring"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20px"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/icon_outer_ring" />
+
+                <ImageView
+                    android:id="@+id/iv_inner_ring"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10px"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/icon_inner_ring" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/shadow_bg"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="253px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="80px"
+                android:layout_marginTop="80px"
+                android:src="@mipmap/icon_wave" />
+
+            <Button
+                android:id="@+id/bt_setting"
+                android:layout_width="match_parent"
+                android:layout_height="62px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="80px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/selector_bg_button"
+                android:text="配置信息"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <Button
+                android:id="@+id/bt_record_search"
+                android:layout_width="match_parent"
+                android:layout_height="62px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="80px"
+                android:layout_marginTop="50px"
+                android:background="@drawable/selector_bg_button"
+                android:text="记录查询"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="62px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="80px"
+                android:layout_marginTop="50px"
+                android:background="@drawable/selector_bg_button"
+                android:text="使用记录"
+                android:textColor="@color/white"
+                android:textSize="26px" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

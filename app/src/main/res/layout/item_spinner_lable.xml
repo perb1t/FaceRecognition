@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:button="@null"
+        android:drawableLeft="@drawable/selector_check_rect"
+        android:drawablePadding="20px"
+        android:gravity="center_vertical"
+        android:paddingLeft="10px"
+        android:text="ssss"
+        android:textColor="@color/black"
+        android:textSize="24px" />
+
+
+</LinearLayout>

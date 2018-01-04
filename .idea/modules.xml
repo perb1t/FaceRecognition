@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FaceRecognition.iml" filepath="$PROJECT_DIR$/FaceRecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLibs/MPChartLibs.iml" filepath="$PROJECT_DIR$/MPChartLibs/MPChartLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xkit/xkit.iml" filepath="$PROJECT_DIR$/xkit/xkit.iml" />
+    </modules>
+  </component>
+</project>

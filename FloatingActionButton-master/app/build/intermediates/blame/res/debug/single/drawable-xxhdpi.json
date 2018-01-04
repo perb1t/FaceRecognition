@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_fab_star.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_fab_star.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\fab_bg_mini.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-xxhdpi\\fab_bg_mini.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\fab_bg_normal.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-xxhdpi\\fab_bg_normal.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fab_bg_normal.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\fab_bg_normal.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_add.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\icon_add.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_delete.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\icon_delete.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_fab_star.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\ic_fab_star.png"
+    },
+    {
+        "merged": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fab_bg_mini.png",
+        "source": "D:\\hzrobotworkspace\\FaceRecognition\\FloatingActionButton-master\\app\\src\\main\\res\\drawable-mdpi\\fab_bg_mini.png"
+    }
+]

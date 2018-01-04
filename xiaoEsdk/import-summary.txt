@@ -1,0 +1,150 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\artifacts\
+* .idea\artifacts\xiaoEsdk.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\uiDesigner.xml
+* .idea\workspace.xml
+* 122.MF
+* Demo.iml
+* out\
+* out\artifacts\
+* out\artifacts\xiaoEsdk\
+* out\artifacts\xiaoEsdk\xiaoEsdk.jar
+* out\production\
+* out\production\xiaoEsdk\
+* out\production\xiaoEsdk\META-INF\
+* out\production\xiaoEsdk\META-INF\MANIFEST.MF
+* out\production\xiaoEsdk\com\
+* out\production\xiaoEsdk\com\cityeasy\
+* out\production\xiaoEsdk\com\cityeasy\aidl\
+* out\production\xiaoEsdk\com\cityeasy\aidl\IInfraredListener$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\IInfraredListener$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\IInfraredListener.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\IInfraredListener.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ILexiconListener$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ILexiconListener$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ILexiconListener.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ILexiconListener.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsr$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsr$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsr.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsr.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsrListener$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsrListener$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsrListener.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechAsrListener.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTts$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTts$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTts.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTts.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTtsListener$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTtsListener$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTtsListener.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ISpeechTtsListener.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ITouchPanelListener$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ITouchPanelListener$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\ITouchPanelListener.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\ITouchPanelListener.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\IVoiceAssistService$Stub$Proxy.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\IVoiceAssistService$Stub.class
+* out\production\xiaoEsdk\com\cityeasy\aidl\IVoiceAssistService.aidl
+* out\production\xiaoEsdk\com\cityeasy\aidl\IVoiceAssistService.class
+* out\production\xiaoEsdk\com\cityeasy\asr\
+* out\production\xiaoEsdk\com\cityeasy\asr\SpeechArs$1.class
+* out\production\xiaoEsdk\com\cityeasy\asr\SpeechArs$2.class
+* out\production\xiaoEsdk\com\cityeasy\asr\SpeechArs$UIHandler.class
+* out\production\xiaoEsdk\com\cityeasy\asr\SpeechArs.class
+* out\production\xiaoEsdk\com\cityeasy\asr\SpeechAsrListener.class
+* out\production\xiaoEsdk\com\cityeasy\common\
+* out\production\xiaoEsdk\com\cityeasy\common\InfraredListener.class
+* out\production\xiaoEsdk\com\cityeasy\common\LedCotrol.class
+* out\production\xiaoEsdk\com\cityeasy\common\LexiconListener.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$1.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$2.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$3.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$4.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$5.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils$UIHandler.class
+* out\production\xiaoEsdk\com\cityeasy\common\RobotsUtils.class
+* out\production\xiaoEsdk\com\cityeasy\common\SpeechConstant.class
+* out\production\xiaoEsdk\com\cityeasy\common\TouchPanelListener.class
+* out\production\xiaoEsdk\com\cityeasy\common\Version.class
+* out\production\xiaoEsdk\com\cityeasy\demo\
+* out\production\xiaoEsdk\com\cityeasy\demo\BuildConfig.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$1.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$2.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$3.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$4.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$5.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$6.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$7.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$8.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity$9.class
+* out\production\xiaoEsdk\com\cityeasy\demo\MainActivity.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$attr.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$color.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$dimen.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$id.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$layout.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$mipmap.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$string.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R$style.class
+* out\production\xiaoEsdk\com\cityeasy\demo\R.class
+* out\production\xiaoEsdk\com\cityeasy\tts\
+* out\production\xiaoEsdk\com\cityeasy\tts\SpeechTts$1.class
+* out\production\xiaoEsdk\com\cityeasy\tts\SpeechTts$2.class
+* out\production\xiaoEsdk\com\cityeasy\tts\SpeechTts$UIHandler.class
+* out\production\xiaoEsdk\com\cityeasy\tts\SpeechTts.class
+* out\production\xiaoEsdk\com\cityeasy\tts\SpeechTtsListener.class
+* out\production\xiaoEsdk\xiaoEsdk.apk
+* out\production\xiaoEsdk\xiaoEsdk.unaligned.apk
+* xiaoEDemo.iml
+* xiaoEsdk.iml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\cityeasy\aidl\IInfraredListener.aidl => app\src\main\aidl\com\cityeasy\aidl\IInfraredListener.aidl
+* src\com\cityeasy\aidl\ILexiconListener.aidl => app\src\main\aidl\com\cityeasy\aidl\ILexiconListener.aidl
+* src\com\cityeasy\aidl\ISpeechAsr.aidl => app\src\main\aidl\com\cityeasy\aidl\ISpeechAsr.aidl
+* src\com\cityeasy\aidl\ISpeechAsrListener.aidl => app\src\main\aidl\com\cityeasy\aidl\ISpeechAsrListener.aidl
+* src\com\cityeasy\aidl\ISpeechTts.aidl => app\src\main\aidl\com\cityeasy\aidl\ISpeechTts.aidl
+* src\com\cityeasy\aidl\ISpeechTtsListener.aidl => app\src\main\aidl\com\cityeasy\aidl\ISpeechTtsListener.aidl
+* src\com\cityeasy\aidl\ITouchPanelListener.aidl => app\src\main\aidl\com\cityeasy\aidl\ITouchPanelListener.aidl
+* src\com\cityeasy\aidl\IVoiceAssistService.aidl => app\src\main\aidl\com\cityeasy\aidl\IVoiceAssistService.aidl
+* src\META-INF\MANIFEST.MF => app\src\main\resources\META-INF\MANIFEST.MF
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hazhirobot.facerecognition">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+
+    <application
+        android:name=".global.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_face"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.RecognitionHomeActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.RecognitionActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.RecognitionRecordActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.RecognitionSettingActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ui.RecognitionAddPersonActivity"
+            android:screenOrientation="landscape" />
+
+        <!--Receiver-->
+        <receiver android:name=".receiver.WakeupReceiver">
+            <intent-filter>
+                <action android:name="com.cityeasy.voice.enable.tts" />
+            </intent-filter>
+        </receiver>
+
+        <!--service-->
+        <service android:name=".service.CommandObserver"/>
+    </application>
+
+</manifest>

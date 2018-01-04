@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/company_"
+    android:orientation="vertical"
+    android:padding="10px">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="20px"
+        android:alpha="0.4"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="FACE GROUP ID : "
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0000"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="hazhi_robot_group_001"
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="20px"
+        android:alpha="0.4"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="FACE PERSON HEADER : "
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_person_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0000"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="hz_person_"
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="20px"
+        android:alpha="0.4"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="FACE PERSON CURRENT ID : "
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_person_current_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0000"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:text="1"
+                android:textColor="@color/darkgreen"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/selector_button_bg_commit"
+        android:gravity="center"
+        android:text="保存(Save)"
+        android:textColor="@color/white"
+        android:textSize="18px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
